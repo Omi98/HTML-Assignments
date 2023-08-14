@@ -1,0 +1,25 @@
+/* this scss will be used for styling of 1.html */
+
+.all-text {
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+
+  .ul-span {
+    font-weight: bold;
+  }
+
+  .bar {
+    width: 50%;
+  }
+
+  .text {
+    white-space: pre-line;
+
+    #line2 {
+      display: block;
+      text-indent: 4%;
+    }
+  }
+}

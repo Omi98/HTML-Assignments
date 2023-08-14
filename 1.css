@@ -1,0 +1,22 @@
+/* this scss will be used for styling of 1.html */
+.all-text {
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+}
+.all-text .ul-span {
+  font-weight: bold;
+}
+.all-text .bar {
+  width: 50%;
+}
+.all-text .text {
+  white-space: pre-line;
+}
+.all-text .text #line2 {
+  display: block;
+  text-indent: 4%;
+}
+
+/*# sourceMappingURL=1.css.map */
