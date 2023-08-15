@@ -1,20 +1,21 @@
 /* this scss will be used for styling of 1.html */
-.all-text {
-  margin-left: 45%;
+hr {
+  width: 50%;
+}
+
+.section {
+  margin-left: 43vw;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   text-align: left;
 }
-.all-text .ul-span {
+.section .ul-span {
   font-weight: bold;
 }
-.all-text .bar {
-  width: 50%;
-}
-.all-text .text {
+.section .text {
   white-space: pre-line;
 }
-.all-text .text #line2 {
+.section .text .line2 {
   display: block;
   text-indent: 4%;
 }

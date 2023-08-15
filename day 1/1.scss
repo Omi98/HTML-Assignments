@@ -1,18 +1,17 @@
 /* this scss will be used for styling of 1.html */
 
-.all-text {
-  margin-left: 45%;
+hr {
+  width: 50%;
+}
+
+.section {
+  margin-left: 43vw;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
-  text-align: center;
+  text-align: left;
 
   .ul-span {
     font-weight: bold;
-  }
-
-  .bar {
-    width: 50%;
-    margin: auto;
   }
 
   .text {
