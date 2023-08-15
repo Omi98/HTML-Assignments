@@ -1,9 +1,9 @@
 /* this scss will be used for styling of 1.html */
 .all-text {
-  margin: auto;
+  margin-left: 45%;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
-  text-align: center;
+  text-align: left;
 }
 .all-text .ul-span {
   font-weight: bold;

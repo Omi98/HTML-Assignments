@@ -1,7 +1,7 @@
 /* this scss will be used for styling of 1.html */
 
 .all-text {
-  margin: auto;
+  margin-left: 45%;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   text-align: center;
@@ -12,12 +12,13 @@
 
   .bar {
     width: 50%;
+    margin: auto;
   }
 
   .text {
     white-space: pre-line;
 
-    #line2 {
+    .line2 {
       display: block;
       text-indent: 4%;
     }
