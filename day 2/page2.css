@@ -1,3 +1,69 @@
+.sec1 h1 {
+  text-align: center;
+  color: #2471a3;
+  font-family: "Roboto";
+}
+.sec1 .sub1sec1 {
+  background-color: #d6eaf8;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: "Comic Sans MS";
+}
+.sec1 .sub1sec1 h2 {
+  color: #154360;
+}
+.sec1 .sub1sec1 li:nth-child(2) {
+  background-color: #154360;
+  color: #fdfefe;
+}
+.sec1 .sub1sec1 .sec1text {
+  white-space: pre-line;
+}
+.sec1 .sub1sec1 .sec1text #line1 {
+  font-weight: bold;
+}
+.sec1 .sub1sec1 .sec1text #line2 {
+  color: #cb4335;
+}
 
+.sec2 h2 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.sec2 .sec2-text1 {
+  font-family: "Roboto";
+  white-space: pre-line;
+}
+.sec2 .sec2-text1 a:link {
+  color: red;
+  text-decoration: none;
+}
+.sec2 .sec2-text1 a:visited {
+  color: red;
+  text-decoration: none;
+}
+.sec2 .sec2-text2 #word1 {
+  text-decoration: underline;
+  color: blue;
+}
+.sec2 .sec2-text2 .sec2-text3 {
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Light.woff2") format("woff2"), url("Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("ComicSansMS.woff2") format("woff2"), url("ComicSansMS.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 /*# sourceMappingURL=page2.css.map */
