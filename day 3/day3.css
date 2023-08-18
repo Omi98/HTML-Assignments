@@ -1,0 +1,15 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0% 15%;
+  padding: 10px 0px;
+}
+body .pg-header {
+  background-color: #f6e0b5;
+  height: 80px;
+}
+body .pg-body {
+  background-color: #d9e3da;
+  height: 400px;
+}
+
+/*# sourceMappingURL=day3.css.map */
