@@ -29,8 +29,10 @@ body .pg-body .right ul {
 }
 body .pg-footer {
   background-color: #e3f0ff;
+  height: 50px;
+}
+body .pg-footer h2 {
   margin-top: 0px;
-  padding-top: 0px;
 }
 
 /*# sourceMappingURL=day3.css.map */
