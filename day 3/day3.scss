@@ -8,17 +8,18 @@ body {
   font-family: "Times New Roman", Times, serif;
   width: $bodyW;
   margin: auto;
+  color: #2c3e50;
   // margin: 0% 15%;
   // padding: 10px 0px;
 
   .pg-header {
-    background-color: #ff8b94;
+    background-color: #d2e7ff;
     height: $headerH;
     padding: calc($headerH - 70px) 0px;
   }
 
   .pg-body {
-    background-color: #ffaaa5;
+    background-color: #fff6e9;
     height: $bodyH;
 
     .left {
@@ -29,9 +30,21 @@ body {
 
     .right {
       float: left;
-      background-color: #ffd3b6;
+      background-color: #ffefd7;
       width: $margin_left;
       height: $bodyH;
+
+      ul {
+        list-style-type: none;
+        //margin: 0px;
+        padding: 0px;
+      }
     }
+  }
+
+  .pg-footer {
+    background-color: #e3f0ff;
+    margin-top: 0px;
+    padding-top: 0px;
   }
 }

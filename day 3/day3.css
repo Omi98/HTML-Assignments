@@ -2,14 +2,15 @@ body {
   font-family: "Times New Roman", Times, serif;
   width: 950px;
   margin: auto;
+  color: #2c3e50;
 }
 body .pg-header {
-  background-color: #ff8b94;
+  background-color: #d2e7ff;
   height: 80px;
   padding: 10px 0px;
 }
 body .pg-body {
-  background-color: #ffaaa5;
+  background-color: #fff6e9;
   height: 500px;
 }
 body .pg-body .left {
@@ -18,9 +19,18 @@ body .pg-body .left {
 }
 body .pg-body .right {
   float: left;
-  background-color: #ffd3b6;
+  background-color: #ffefd7;
   width: 200px;
   height: 500px;
+}
+body .pg-body .right ul {
+  list-style-type: none;
+  padding: 0px;
+}
+body .pg-footer {
+  background-color: #e3f0ff;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 /*# sourceMappingURL=day3.css.map */
