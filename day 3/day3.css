@@ -1,15 +1,25 @@
 body {
   font-family: "Times New Roman", Times, serif;
-  margin: 0% 15%;
-  padding: 10px 0px;
+  width: 950px;
+  margin: auto;
 }
 body .pg-header {
-  background-color: #f6e0b5;
+  background-color: #ff8b94;
   height: 80px;
+  padding: 10px 0px;
 }
 body .pg-body {
-  background-color: #d9e3da;
-  height: 400px;
+  background-color: #ffaaa5;
+  height: 500px;
+}
+body .pg-body .left {
+  float: left;
+  width: 250px;
+}
+body .pg-body .right {
+  float: left;
+  background-color: #ffd3b6;
+  margin-left: 700px;
 }
 
 /*# sourceMappingURL=day3.css.map */

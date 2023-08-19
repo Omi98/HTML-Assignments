@@ -1,21 +1,35 @@
 // header height var
 $headerH: 80px;
-$bodyH: 400px;
+$bodyH: 500px;
+$bodyW: 950px;
+$margin_left: 700px;
 
 body {
   font-family: "Times New Roman", Times, serif;
-  margin: 0% 15%;
-  padding: 10px 0px;
+  width: $bodyW;
+  margin: auto;
+  // margin: 0% 15%;
+  // padding: 10px 0px;
 
   .pg-header {
-    background-color: #f6e0b5;
+    background-color: #ff8b94;
     height: $headerH;
-
-    //padding: calc($headerH - 70px) 0px;
+    padding: calc($headerH - 70px) 0px;
   }
 
   .pg-body {
-    background-color: #d9e3da;
+    background-color: #ffaaa5;
     height: $bodyH;
+
+    .left {
+      float: left;
+      width: $bodyW - $margin_left;
+    }
+
+    .right {
+      float: left;
+      background-color: #ffd3b6;
+      margin-left: $margin_left;
+    }
   }
 }
