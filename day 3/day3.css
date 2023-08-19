@@ -14,12 +14,13 @@ body .pg-body {
 }
 body .pg-body .left {
   float: left;
-  width: 250px;
+  width: 750px;
 }
 body .pg-body .right {
   float: left;
   background-color: #ffd3b6;
-  margin-left: 700px;
+  width: 200px;
+  height: 500px;
 }
 
 /*# sourceMappingURL=day3.css.map */

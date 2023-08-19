@@ -2,7 +2,7 @@
 $headerH: 80px;
 $bodyH: 500px;
 $bodyW: 950px;
-$margin_left: 700px;
+$margin_left: 200px;
 
 body {
   font-family: "Times New Roman", Times, serif;
@@ -23,13 +23,15 @@ body {
 
     .left {
       float: left;
-      width: $bodyW - $margin_left;
+      // end of width is start of next float block
+      width: calc($bodyW - $margin_left);
     }
 
     .right {
       float: left;
       background-color: #ffd3b6;
-      margin-left: $margin_left;
+      width: $margin_left;
+      height: $bodyH;
     }
   }
 }
