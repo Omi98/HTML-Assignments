@@ -1,5 +1,25 @@
 body {
   background-color: #d0ece7;
 }
+body ul {
+  background-color: #45b39d;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+}
+body ul li {
+  float: left;
+}
+body ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+}
+body ul li a:hover {
+  color: #0b5345;
+}
 
 /*# sourceMappingURL=index.css.map */

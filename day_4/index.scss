@@ -1,3 +1,27 @@
 body {
   background-color: #d0ece7;
+
+  ul {
+    background-color: #45b39d;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+
+    li {
+      float: left;
+
+      a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 8px 15px;
+
+        &:hover {
+          color: #0b5345;
+        }
+      }
+    }
+  }
 }
