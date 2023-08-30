@@ -7,13 +7,13 @@ body ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-size: 20px;
+  font-size: 18px;
 }
 body ul li {
-  float: left;
+  display: inline-block;
 }
 body ul li a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: white;
   padding: 8px 15px;
