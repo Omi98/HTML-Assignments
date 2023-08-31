@@ -1,0 +1,24 @@
+body .navbar ul {
+  font-family: "Roboto Medium";
+  list-style-type: none;
+  text-align: right;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+body .navbar ul li {
+  display: inline-block;
+}
+body .navbar ul li a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 40px;
+  font-size: 20px;
+}
+body .navbar ul li a:hover {
+  background-color: #310abf;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

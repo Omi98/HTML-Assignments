@@ -1,0 +1,29 @@
+body {
+  .navbar {
+    ul {
+      font-family: "Roboto Medium";
+      list-style-type: none;
+      text-align: right;
+      margin: 0 auto;
+      padding: 0;
+      overflow: hidden;
+
+      li {
+        display: inline-block;
+
+        a {
+          color: white;
+          display: inline-block;
+          text-decoration: none;
+          padding: 8px 40px;
+          font-size: 20px;
+
+          &:hover {
+            background-color: #310abf;
+            border-radius: 20px;
+          }
+        }
+      }
+    }
+  }
+}
