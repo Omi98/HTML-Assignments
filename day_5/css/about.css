@@ -1,3 +1,41 @@
-
+body {
+  background-color: #e9f7ef;
+}
+body .navbar ul li a {
+  color: black;
+}
+body .navbar ul li a:hover {
+  background-color: #27ae60;
+  color: white;
+}
+body .container {
+  display: flex;
+}
+body .container .image {
+  margin-top: 10vh;
+  margin-left: 10vw;
+}
+body .container .image img {
+  flex-basis: 400px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border-radius: 20px;
+  max-width: 70%;
+  max-height: auto;
+}
+body .container .text {
+  flex-basis: 450px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-top: 20vh;
+  margin-right: 10vw;
+}
+body .container .text h1 {
+  font-family: "Roboto Medium";
+  line-height: 1.5;
+}
+body .container .text p {
+  font-family: "Roboto Light";
+}
 
 /*# sourceMappingURL=about.css.map */

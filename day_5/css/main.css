@@ -10,14 +10,12 @@ body .navbar ul li {
   display: inline-block;
 }
 body .navbar ul li a {
-  color: white;
   display: inline-block;
   text-decoration: none;
   padding: 8px 40px;
   font-size: 20px;
 }
 body .navbar ul li a:hover {
-  background-color: #310abf;
   border-radius: 20px;
 }
 

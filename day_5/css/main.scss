@@ -12,14 +12,13 @@ body {
         display: inline-block;
 
         a {
-          color: white;
+          //color: white;
           display: inline-block;
           text-decoration: none;
           padding: 8px 40px;
           font-size: 20px;
 
           &:hover {
-            background-color: #310abf;
             border-radius: 20px;
           }
         }

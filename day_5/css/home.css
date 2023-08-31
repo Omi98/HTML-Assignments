@@ -3,10 +3,16 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+body .navbar ul li a {
+  color: white;
+}
+body .navbar ul li a:hover {
+  background-color: #310abf;
+}
 body .text {
   margin-top: 20vh;
   margin-left: 10vw;
-  width: 40vw;
+  width: 35vw;
   padding: 20px;
   background-color: white;
   border-radius: 20px;
