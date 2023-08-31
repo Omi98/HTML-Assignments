@@ -1,0 +1,44 @@
+body {
+  background-image: url("/day_5/images/home\ page.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .text {
+    margin-top: 20vh;
+    margin-left: 10vw;
+    width: 40vw;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    color: #310abf;
+
+    p {
+      font-family: "Roboto Light";
+      font-size: 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+      font-family: "Roboto Black";
+    }
+  }
+
+  .btn {
+    button {
+      margin-top: 10vh;
+      margin-left: 10vw;
+      padding: 10px 20px;
+      border: 2px solid white;
+      border-radius: 20px;
+      display: inline-block;
+      font-size: 20px;
+      font-family: "Roboto Light";
+      background-color: transparent;
+      color: ;
+
+      &:hover {
+        background-color: white;
+      }
+    }
+  }
+}
