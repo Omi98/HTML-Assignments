@@ -1,3 +1,46 @@
-
+body {
+  background-color: #d6dbdf;
+}
+body .navbar ul li a {
+  color: black;
+}
+body .navbar ul li a:hover {
+  background-color: #34495e;
+  color: white;
+}
+body h1 {
+  text-align: center;
+  font-family: "Roboto Black";
+  font-size: 40px;
+  color: #34495e;
+  margin-top: 5%;
+}
+body .row .column {
+  float: left;
+  width: 30%;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 12.3%;
+  padding: 10px;
+}
+body .row .column h2 {
+  text-align: center;
+  font-family: "Roboto";
+  color: #34495e;
+}
+body .row .column p {
+  padding-left: 20px;
+  font-family: "Roboto Light";
+}
+body .row .column img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+}
+body .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /*# sourceMappingURL=portfolio.css.map */
