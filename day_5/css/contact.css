@@ -1,3 +1,60 @@
-
+body {
+  background-image: url("/day_5/images/contact page.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .navbar ul li a {
+  color: white;
+}
+body .navbar ul li a:hover {
+  background-color: white;
+  color: blue;
+}
+body .outer {
+  float: right;
+  margin-top: 5%;
+  margin-right: 10%;
+}
+body .outer h1 {
+  font-size: 40px;
+  font-family: "Roboto Black";
+  color: white;
+}
+body .outer .inner {
+  width: 30vw;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 20px;
+  color: #310abf;
+  font-family: "Roboto Light";
+}
+body .outer .inner p {
+  font-size: 20px;
+}
+body .outer .inner ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+body .outer .inner ul li a {
+  text-decoration: none;
+}
+body .outer .inner ul li a:link,
+body .outer .inner ul li a:visited {
+  text-decoration: none;
+  color: #310abf;
+}
+body .outer .inner ul li a:hover {
+  color: red;
+}
+body .outer .inner ul li:hover {
+  color: red;
+}
+body .outer .inner ul hr {
+  width: 50%;
+  margin-left: 0;
+}
 
 /*# sourceMappingURL=contact.css.map */

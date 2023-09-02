@@ -1,0 +1,79 @@
+body {
+  background-image: url("/day_5/images/contact\ page.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .navbar {
+    ul {
+      li {
+        a {
+          color: white;
+
+          &:hover {
+            background-color: white;
+            color: blue;
+          }
+        }
+      }
+    }
+  }
+
+  .outer {
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+
+    h1 {
+      font-size: 40px;
+      font-family: "Roboto Black";
+      color: white;
+    }
+
+    .inner {
+      width: 30vw;
+      padding-left: 30px;
+      padding-top: 5px;
+      padding-bottom: 20px;
+      background-color: white;
+      border-radius: 20px;
+      color: #310abf;
+
+      font-family: "Roboto Light";
+
+      p {
+        font-size: 20px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+          a {
+            text-decoration: none;
+          }
+
+          a:link,
+          a:visited {
+            text-decoration: none;
+            color: #310abf;
+          }
+
+          a:hover {
+            color: red;
+          }
+
+          &:hover {
+            color: red;
+          }
+        }
+
+        hr {
+          width: 50%;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
